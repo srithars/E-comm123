@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+function validate(form){
+    var username = form.t1.value;
+    var password = form.pass1.value;
+
+    if(username == "srithar" && password == "srithar"){
+        // store login
+        localStorage.setItem("loginUser", username);
+        alert("Success");
+        return true;
+    } else {
+        alert("Pls enter correct credentials");
+        return false;
+    }
+}
+</script>
+
+
+</head>
+<body>
+    <form name="form" action="index.html" method="post">
+    <center>
+    <h1>E-Commerce Login</h1> <br><br>
+    Username: <input type="text" name="t1"> <br><br>
+    Passwsord: <input type="password" name="pass1"> <br><br>
+    <input type="submit" onclick="return validate(this.form)">
+    </center>
+    </form>
+</body>
+</html>

@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f8f8;
+}
+
+header {
+  background-color: #222;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #ff8a00, #e52e71);
+  color: white;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 30px;
+  background-color: white;
+  color: #e52e71;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #222;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px;
+  gap: 20px;
+}
+
+.product {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  /* box-shadow: 0 2px 5px rgba(0,0,0,0.1); */
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #e52e71;
+  border: none;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.cart-container {
+  padding: 40px;
+  text-align: center;
+}
+/* 
+.cart-item {
+  background: white;
+  margin: 10px auto;
+  padding: 15px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+} */
+
+#checkout-btn {
+  background-color: #ff8a00;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.highlights {
+  background: rgb(246, 206, 5);
+  padding: 40px;
+  margin: 60px auto;
+  width: 80%;
+  text-align: center;
+  border-radius: 12px;
+  
+}
+ .highlights h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.highlights ul {
+  list-style: none;
+
+}
+.highlights ul li {
+  font-size: 18px;
+  padding: 8px 0;
+}   
+
+#user-display{
+   position:absolute;
+      right:20px;
+      top:20px;
+      font-weight:bold;
+}
